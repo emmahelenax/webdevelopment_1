@@ -6,12 +6,11 @@
     <title>My Favourite Animal</title>
 
     <link rel="stylesheet" href="styles.css">
-
+    <script src="animal.js" defer></script>
 </head>
 
 <body>
-
-    <h1>My Favourite Animal</h1>
+    <h1 id="animalTitle">My Favourite Animal</h1>
 
     <p>
         My name is Emma and I'm generally an animal person and it is hard to choose one. My favourite animal, that is not domestic, is a cheetah!
@@ -20,11 +19,22 @@
 
     <img src="Pictures/pic_of_cheetah.png" alt="A picture of a cheetah" width="300">
 
+    <p><button id="animalButton">Click for Cheetah </button></p>
+    
     <p>
         <a href="https://en.wikipedia.org/wiki/Cheetah" target="_blank">
             Learn more about cheetahs!
         </a>
     </p>
+
+    <h2>Choose Another Animal</h2>
+
+        <form id="animalForm">
+            <label for="animalInput">Enter an animal:</label>
+            <input id="animalInput" type="text" placeholder="Type an animal name">
+            <button type="submit">Submit</button>
+        </form>
+        <p id="animalOutput"></p>
 
 </body>
 </html>

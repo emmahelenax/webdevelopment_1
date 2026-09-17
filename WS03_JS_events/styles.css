@@ -11,13 +11,19 @@ body {
 
 h1 {
     color: #E296B2; 
-    font-size: 36px; 
+    font-size: 32px; 
     margin-bottom: 20px; 
 }
 
 h2 {
     color: #E296B2; 
-    font-size: 36px; 
+    font-size: 32px; 
+    margin-bottom: 20px; 
+}
+
+h3 {
+    color: #E296B2; 
+    font-size: 28px; 
     margin-bottom: 20px; 
 }
 
@@ -39,4 +45,14 @@ a {
 
 a:hover {
     text-decoration: underline; 
+}
+
+button {
+    background-color: #97181A; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    border-radius: 5px; 
 }
